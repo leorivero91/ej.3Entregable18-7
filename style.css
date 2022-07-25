@@ -1,0 +1,136 @@
+div {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+  text-align: left;
+  color: black;
+  font-size: 1em;
+}
+h2 {
+  text-align: left;
+  color: white;
+  font-size: 0.9em;
+}
+.encabezado {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: flex-start;
+  background-color: rgb(196, 196, 196);
+  height: 20vh;
+  color: black;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  padding: 0.8%;
+}
+.menu1 {
+  background-color: rgb(52, 189, 52);
+  height: 4vh;
+  width: 25vw;
+  margin-left: 58vw;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+  padding-bottom: 1.5%;
+}
+.logo {
+  background-color: rgb(29, 29, 125);
+  height: 7vh;
+  width: 15vw;
+  margin-right: 5vw;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
+.menu2 {
+  background-color: darkred;
+  height: 4vh;
+  width: 68.5vw;
+  margin-left: 2vw;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+  padding-bottom: 1.5%;
+}
+.CentroSuperior {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+.izquierda {
+  background-color: rgb(62, 68, 73);
+  height: 55vh;
+  width: 31.5vw;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+}
+.centro {
+  background-color: teal;
+  height: 55vh;
+  width: 31.5vw;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+}
+.derecha {
+  background-color: rgb(241, 162, 93);
+  height: 55vh;
+  width: 31.5vw;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+}
+.CentroInferior {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.5%;
+}
+.izquierda2 {
+  background-color: darkgreen;
+  height: 55vh;
+  width: 58vw;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+}
+.derecha2 {
+  background-color: rgb(179, 88, 23);
+  height: 55vh;
+  width: 38vw;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+.pie {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  background-color: deepskyblue;
+  height: 20vh;
+  color: black;
+  border: 4px;
+  border-color: black;
+  border-style: solid;
+  padding-bottom: 1.5%;
+}
+.elemento {
+  background-color: blue;
+  height: 5vh;
+  width: 10vw;
+  align-self: flex-end;
+  border: 4px;
+  border-color: black;
+  border-style: solid;
+  margin-right: 2vw;
+}
