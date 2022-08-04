@@ -13,9 +13,10 @@ h2 {
 }
 .encabezado {
   display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
   flex-wrap: wrap;
-  flex-grow: 1;
-  justify-content: flex-start;
   background-color: rgb(196, 196, 196);
   height: 20vh;
   color: black;
@@ -28,7 +29,6 @@ h2 {
   background-color: rgb(52, 189, 52);
   height: 4vh;
   width: 25vw;
-  margin-left: 58vw;
   border: 3px;
   border-color: black;
   border-style: solid;
